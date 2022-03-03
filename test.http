@@ -1,0 +1,17 @@
+# GET http://localhost:3131/user
+# {
+#     "email": "eleonore0528@gmail.com",
+#     "password": "password",
+# }
+# ###
+
+POST http://localhost:3131/register
+Content-Type: application/json
+
+{
+    "first_name": "Eléonore",
+    "last_name": "Ayari",
+    "email": "eleonore0528@gmail.com",
+    "password": "password",
+    "confirm_password": "password"
+}
